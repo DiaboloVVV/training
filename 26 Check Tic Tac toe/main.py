@@ -1,7 +1,7 @@
 def main():
-    game = [[2, 2, 1],
-            [2, 1, 0],
-            [2, 1, 2]]
+    game = [["O", "O", "X"],
+            ["X", "O", "X"],
+            ["O", "X", "X"]]
     for elem in range(3):
         for element in range(3):
             try:
